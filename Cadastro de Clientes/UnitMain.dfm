@@ -274,6 +274,84 @@ object Form1: TForm1
     object TabSheet2: TTabSheet
       Caption = 'Dados do C'#244'njuge'
       ImageIndex = 1
+      object Label15: TLabel
+        Left = 26
+        Top = 16
+        Width = 98
+        Height = 15
+        Caption = 'Nome do C'#244'njuge'
+      end
+      object Label17: TLabel
+        Left = 26
+        Top = 72
+        Width = 107
+        Height = 15
+        Caption = 'Data de Nascimento'
+      end
+      object Label18: TLabel
+        Left = 301
+        Top = 16
+        Width = 21
+        Height = 15
+        Caption = 'CPF'
+      end
+      object Edit13: TEdit
+        Left = 26
+        Top = 37
+        Width = 247
+        Height = 23
+        TabOrder = 0
+      end
+      object Edit15: TEdit
+        Left = 26
+        Top = 93
+        Width = 247
+        Height = 23
+        TabOrder = 1
+      end
+      object GroupBox1: TGroupBox
+        Left = 301
+        Top = 66
+        Width = 396
+        Height = 265
+        Caption = 'Contatos do C'#244'njuge'
+        TabOrder = 2
+        object Label16: TLabel
+          Left = 21
+          Top = 29
+          Width = 37
+          Height = 15
+          Caption = 'Celular'
+        end
+        object Label19: TLabel
+          Left = 21
+          Top = 85
+          Width = 29
+          Height = 15
+          Caption = 'Email'
+        end
+        object Edit14: TEdit
+          Left = 21
+          Top = 50
+          Width = 167
+          Height = 23
+          TabOrder = 0
+        end
+        object Edit17: TEdit
+          Left = 21
+          Top = 106
+          Width = 167
+          Height = 23
+          TabOrder = 1
+        end
+      end
+      object Edit16: TEdit
+        Left = 301
+        Top = 37
+        Width = 167
+        Height = 23
+        TabOrder = 3
+      end
     end
     object TabSheet3: TTabSheet
       Caption = 'Dados do Trabalho'
