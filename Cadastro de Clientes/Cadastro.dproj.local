@@ -2,9 +2,9 @@
 <BorlandProject>
 	<Transactions>
     <Transaction>2023/10/20 16:30:04.000.758,=C:\Users\adryan\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2023/10/20 19:06:44.114,=C:\Users\adryan\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2023/10/20 19:19:28.844,C:\Users\adryan\Documents\Delphi\Cadastro de Clientes\UnitMain.dfm=C:\Users\adryan\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
-    <Transaction>2023/10/20 19:19:28.844,C:\Users\adryan\Documents\Delphi\Cadastro de Clientes\UnitMain.pas=C:\Users\adryan\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2023/10/20 19:19:45.206,C:\Users\adryan\Documents\Delphi\Cadastro de Clientes\Cadastro.dproj=C:\Users\adryan\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2023/10/20 19:06:44.000.114,=C:\Users\adryan\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/10/20 19:19:28.000.844,C:\Users\adryan\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\adryan\Documents\Delphi\Cadastro de Clientes\UnitMain.pas</Transaction>
+    <Transaction>2023/10/20 19:19:28.000.844,C:\Users\adryan\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\adryan\Documents\Delphi\Cadastro de Clientes\UnitMain.dfm</Transaction>
+    <Transaction>2023/10/20 19:19:45.000.206,C:\Users\adryan\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\adryan\Documents\Delphi\Cadastro de Clientes\Cadastro.dproj</Transaction>
   </Transactions>
 </BorlandProject>
