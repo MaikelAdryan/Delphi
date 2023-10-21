@@ -18,12 +18,12 @@ object Form1: TForm1
     Height = 113
     Align = alTop
     TabOrder = 0
-    ExplicitWidth = 825
+    ExplicitWidth = 765
     object Label1: TLabel
       Left = 33
       Top = 33
-      Width = 296
-      Height = 52
+      Width = 280
+      Height = 40
       Caption = 'Cadastro de Clientes'
       Font.Charset = DEFAULT_CHARSET
       Font.Color = clWindowText
@@ -71,9 +71,11 @@ object Form1: TForm1
     Top = 116
     Width = 763
     Height = 430
-    ActivePage = TabSheet2
+    ActivePage = TabSheet1
     Align = alClient
     TabOrder = 1
+    ExplicitWidth = 759
+    ExplicitHeight = 429
     object TabSheet1: TTabSheet
       Caption = 'Dados Pessoais'
       object Label2: TLabel
@@ -330,6 +332,13 @@ object Form1: TForm1
           Height = 15
           Caption = 'Email'
         end
+        object Label20: TLabel
+          Left = 209
+          Top = 29
+          Width = 56
+          Height = 15
+          Caption = 'Operadora'
+        end
         object Edit14: TEdit
           Left = 21
           Top = 50
@@ -340,9 +349,22 @@ object Form1: TForm1
         object Edit17: TEdit
           Left = 21
           Top = 106
-          Width = 167
+          Width = 332
           Height = 23
           TabOrder = 1
+        end
+        object ComboBox2: TComboBox
+          Left = 208
+          Top = 50
+          Width = 145
+          Height = 23
+          Style = csDropDownList
+          TabOrder = 2
+          Items.Strings = (
+            'Tim'
+            'Oi'
+            'Claro'
+            'Vivo')
         end
       end
       object Edit16: TEdit
@@ -356,10 +378,164 @@ object Form1: TForm1
     object TabSheet3: TTabSheet
       Caption = 'Dados do Trabalho'
       ImageIndex = 2
+      object Label21: TLabel
+        Left = 26
+        Top = 24
+        Width = 48
+        Height = 15
+        Caption = 'Profiss'#227'o'
+      end
+      object Label22: TLabel
+        Left = 26
+        Top = 80
+        Width = 45
+        Height = 15
+        Caption = 'Empresa'
+      end
+      object Label23: TLabel
+        Left = 26
+        Top = 136
+        Width = 167
+        Height = 15
+        Caption = 'Endere'#231'o completo do trabalho'
+      end
+      object Label24: TLabel
+        Left = 26
+        Top = 192
+        Width = 108
+        Height = 15
+        Caption = 'Telefone do trabalho'
+      end
+      object Label25: TLabel
+        Left = 250
+        Top = 192
+        Width = 101
+        Height = 15
+        Caption = 'Celular do trabalho'
+      end
+      object Edit18: TEdit
+        Left = 26
+        Top = 45
+        Width = 207
+        Height = 23
+        TabOrder = 0
+      end
+      object Edit19: TEdit
+        Left = 26
+        Top = 101
+        Width = 207
+        Height = 23
+        TabOrder = 1
+      end
+      object Edit20: TEdit
+        Left = 26
+        Top = 157
+        Width = 604
+        Height = 23
+        TabOrder = 2
+      end
+      object Edit21: TEdit
+        Left = 26
+        Top = 213
+        Width = 207
+        Height = 23
+        TabOrder = 3
+      end
+      object Edit22: TEdit
+        Left = 250
+        Top = 213
+        Width = 207
+        Height = 23
+        TabOrder = 4
+      end
     end
     object TabSheet4: TTabSheet
       Caption = 'An'#225'lise de Cr'#233'dito'
       ImageIndex = 3
+      object Label26: TLabel
+        Left = 40
+        Top = 24
+        Width = 75
+        Height = 15
+        Caption = 'Sal'#225'rio Cliente'
+      end
+      object Label27: TLabel
+        Left = 40
+        Top = 74
+        Width = 83
+        Height = 15
+        Caption = 'Sal'#225'rio C'#244'njuge'
+      end
+      object Label28: TLabel
+        Left = 40
+        Top = 124
+        Width = 91
+        Height = 15
+        Caption = 'Limite de Cr'#233'dito'
+      end
+      object Label29: TLabel
+        Left = 40
+        Top = 174
+        Width = 82
+        Height = 15
+        Caption = 'Limite Utilizado'
+      end
+      object Label30: TLabel
+        Left = 40
+        Top = 224
+        Width = 81
+        Height = 15
+        Caption = 'Limite Restante'
+      end
+      object Label31: TLabel
+        Left = 256
+        Top = 24
+        Width = 67
+        Height = 15
+        Caption = 'Observa'#231#245'es'
+      end
+      object Edit23: TEdit
+        Left = 40
+        Top = 45
+        Width = 159
+        Height = 23
+        TabOrder = 0
+      end
+      object Edit24: TEdit
+        Left = 40
+        Top = 95
+        Width = 159
+        Height = 23
+        TabOrder = 1
+      end
+      object Edit25: TEdit
+        Left = 40
+        Top = 145
+        Width = 159
+        Height = 23
+        TabOrder = 2
+      end
+      object Edit26: TEdit
+        Left = 40
+        Top = 195
+        Width = 159
+        Height = 23
+        TabOrder = 3
+      end
+      object Edit27: TEdit
+        Left = 40
+        Top = 245
+        Width = 159
+        Height = 23
+        TabOrder = 4
+      end
+      object Memo1: TMemo
+        Left = 256
+        Top = 45
+        Width = 433
+        Height = 123
+        TabOrder = 5
+      end
     end
   end
 end
