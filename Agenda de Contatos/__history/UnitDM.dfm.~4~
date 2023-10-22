@@ -1,0 +1,60 @@
+object DM: TDM
+  Height = 480
+  Width = 640
+  object Conexao: TFDConnection
+    Params.Strings = (
+      'Database=agenda'
+      'User_Name=root'
+      'DriverID=MySQL')
+    Connected = True
+    LoginPrompt = False
+    Left = 48
+    Top = 40
+  end
+  object TbContatos: TFDTable
+    Active = True
+    IndexFieldNames = 'id'
+    Connection = Conexao
+    ResourceOptions.AssignedValues = [rvEscapeExpand]
+    TableName = 'agenda.contatos'
+    Left = 136
+    Top = 40
+    object TbContatosid: TFDAutoIncField
+      FieldName = 'id'
+      Origin = 'id'
+    end
+    object TbContatosnome: TStringField
+      FieldName = 'nome'
+      Origin = 'nome'
+      Required = True
+      Size = 50
+    end
+    object TbContatoscelular: TStringField
+      FieldName = 'celular'
+      Origin = 'celular'
+      Required = True
+      Size = 16
+    end
+    object TbContatosbloqueado: TBooleanField
+      FieldName = 'bloqueado'
+      Origin = 'bloqueado'
+      Required = True
+    end
+    object TbContatosdata: TDateTimeField
+      FieldName = 'data'
+      Origin = 'data'
+      Required = True
+    end
+    object TbContatosobservacoes: TMemoField
+      FieldName = 'observacoes'
+      Origin = 'observacoes'
+      Required = True
+      BlobType = ftMemo
+    end
+  end
+  object DsContatos: TDataSource
+    DataSet = TbContatos
+    Left = 136
+    Top = 104
+  end
+end
